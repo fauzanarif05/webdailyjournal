@@ -1,0 +1,136 @@
+.collapse ul li:hover {
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+h3 {
+  font-family: "Merienda";
+}
+
+.profile-image {
+  position: relative;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.profile-image-top {
+  margin-left: 10px;
+  margin-top: 7px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image-top:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+#hero {
+  color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: #212121;
+}
+
+.dark-theme {
+  --primary-color: #212121;
+  --secondary-color: white;
+}
+
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+
+.navbar-brand span {
+  color: var(--secondary-color);
+}
+
+.container a {
+  color: var(--secondary-color);
+}
+
+#article {
+  color: var(--secondary-color);
+}
+
+body p {
+  color: var(--secondary-color);
+}
+
+#jadwal * {
+  color: var(--secondary-color);
+}
+
+#article .card {
+  color: var(--secondary-color);
+}
+
+#profile * {
+  color: black;
+}
+
+#profile h3 {
+  color: var(--secondary-color);
+}
+
+body h3 {
+  color: var(--secondary-color);
+}
+
+#hero .btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#hero .btn:hover {
+  background-color: #ffe31a;
+  color: white;
+}
+
+footer * {
+  color: var(--secondary-color);
+}
+
+body * {
+  background-color: var(--primary-color);
+}
+
+.card-footer {
+  background-color: --secondary-color;
+}
+
+.card-footer p {
+  color: var(--primary-color);
+}

@@ -1,0 +1,51 @@
+.carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+h3 {
+  font-family: "Merienda";
+}
+
+.profile-image {
+  position: relative;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.profile-image-top {
+  margin-left: 10px;
+  margin-top: 7px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image-top:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
