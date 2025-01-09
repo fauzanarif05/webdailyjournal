@@ -34,7 +34,7 @@ CREATE TABLE `article` (
   `gambar` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
   `tanggal` datetime DEFAULT NULL,
   `username` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB;
 
 --
 -- Dumping data for table `article`
@@ -57,10 +57,9 @@ INSERT INTO `article` (`id`, `judul`, `isi`, `gambar`, `tanggal`, `username`) VA
 
 CREATE TABLE `gallery` (
   `id` int NOT NULL,
-  `gambar` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `gambar` text CHARACTER SET utf8mb4,
   `tanggal` datetime DEFAULT NULL,
-  `username` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `username` varchar(50)) ENGINE=InnoDB;
 
 --
 -- Dumping data for table `gallery`
@@ -87,7 +86,7 @@ CREATE TABLE `user` (
   `username` varchar(50) NOT NULL,
   `password` text NOT NULL,
   `foto` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB;
 
 --
 -- Dumping data for table `user`
